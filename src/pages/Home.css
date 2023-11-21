@@ -1,0 +1,21 @@
+/* .crddiv{
+    box-shadow: rgb(0, 0, 0) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+} */
+
+.crd{
+    text-align: justify;
+    text-justify: inter-word;
+   transition: .3s ease-in-out;
+   box-shadow: rgba(192, 190, 190, 0.479) 0px 8px 8px, rgba(151, 150, 150, 0.514) 0px 10px 10px;
+}
+.crd:hover{
+    transform: scale(1.05);
+}
+.p1{
+    word-wrap: break-word;
+    height: auto;
+    max-height: 400px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
